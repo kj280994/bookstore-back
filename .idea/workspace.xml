@@ -6,18 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7bad0f4-15b0-4147-8d5d-6fd05d3e6238" name="Default" comment="Arquallian test fixed">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/repository/BookRepositoryTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookstore-back-1.0.war" afterPath="$PROJECT_DIR$/target/bookstore-back-1.0.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bookstore-back.iml" afterPath="$PROJECT_DIR$/.idea/bookstore-back.iml" />
+    <list default="true" id="a7bad0f4-15b0-4147-8d5d-6fd05d3e6238" name="Default" comment="Addition of Bean Validation annotations to validate data in Book and Book repository">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/WEB-INF/classes/com/pluralsight/bookstore/model/Book.class" afterPath="$PROJECT_DIR$/target/bookstore-back-1.0/WEB-INF/classes/com/pluralsight/bookstore/model/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/model/Book.class" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/model/Book.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +26,8 @@
       <file leaf-file-name="BookRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="184">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,22 +35,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookRepositoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookRepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,12 +76,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.2.2/shrinkwrap-api-1.2.2.jar!/org/jboss/shrinkwrap/api/ShrinkWrap.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/arquillian.xml.fxml" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/arquillian.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java" />
       </list>
@@ -177,6 +164,36 @@
               <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
               <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
@@ -455,23 +472,19 @@
       <workItem from="1512148669604" duration="5995000" />
       <workItem from="1512168446984" duration="7233000" />
       <workItem from="1512179580529" duration="351000" />
-      <workItem from="1512180976638" duration="5583000" />
+      <workItem from="1512180976638" duration="7060000" />
     </task>
+    <task id="LOCAL-00001" summary="Arquallian test fixed">
+      <created>1512205359254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512205359254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 12m 31s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 13m 03s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 13m 36s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 15m 55s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
     <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 16m 34s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
@@ -490,9 +503,21 @@
     <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 26m 08s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
+    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 53m 29s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 55m 47s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2017.12.02 at 14h 56m 12s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2017.12.02 at 15h 02m 20s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37276000" />
+    <option name="totallyTimeSpent" value="38753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -578,14 +603,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arquallian test fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquallian test fixed" />
+    <MESSAGE value="Addition of Bean Validation annotations to validate data in Book and Book repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of Bean Validation annotations to validate data in Book and Book repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java</url>
-          <line>49</line>
+          <line>59</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -790,27 +816,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="184">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
